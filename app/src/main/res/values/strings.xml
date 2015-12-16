@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="planets_array">
+        <item>PETROL ISTASYONU</item>
+        <item>ECZANE</item>
+        <item>HIRDAVAT</item>
+        <item>KASAP</item>
+        <item>MAĞAZA</item>
+        <item>TERZİ</item>
+    </string-array>
+    <string name="app_name">Nearbly</string>
+    <string name="login_text">FACEBOOK İLE GİRİŞ YAP</string>
+    <string name="facebook_app_id">913091092089857</string>
+
+    <string name="user_profile_txt">Profile</string>
+    <string name="delete">Delete</string>
+    <string name="complete">Complete</string>
+    <string name="edit_profile">Edit Profile</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="google_maps_key">AIzaSyBv1EEFtIpXl4ZDcbSFGWyxfx6Bm2tP1Vc</string>
+
+    <string name="hello_world">Hello world!</string>
+
+    <string name="screen1_title">Alışveriş Listeleri Oluştur</string>
+    <string name="screen1_desc">Market, Pazar, Kırtasiye gibi alışveriler için listeler oluştur.</string>
+    <string name="screen2_title">Siparişlerini Alabileceğin Yerleri Gör</string>
+    <string name="screen2_desc">Oluşturduğun listeleri temin edebileceğin yerleri harita üzerinde işaretlenmiş olarak görebilirsin.</string>
+    <string name="screen3_title">Gideceğin Yere Rota Çiz</string>
+    <string name="screen3_desc">İşaretlenen yerlere rota çiz ve navigasyon yardımı ile hedefine ulaş.</string>
+</resources>

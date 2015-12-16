@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/complete_list"
+        android:title="@string/complete"
+        android:icon="@mipmap/ic_complete_disabled"
+        app:showAsAction="always">
+    </item>
+
+    <item
+        android:id="@+id/delete_list"
+        android:title="@string/delete"
+        android:icon="@mipmap/ic_delete_list_disabled"
+        app:showAsAction="always">
+    </item>
+
+</menu>

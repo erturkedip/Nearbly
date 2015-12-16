@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fitsSystemWindows="true"
+    android:screenOrientation="portrait">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/user_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay"/>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="240dp"
+            android:id="@+id/user_profile"
+            android:background="@drawable/background_color">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:id="@+id/user_cover_pic"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop">
+
+            </ImageView>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Arkaplan"
+                android:layout_marginRight="10dp"
+                android:visibility="gone"
+                android:id="@+id/edit_profile"
+                android:layout_above="@+id/user_profile_pic"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="25dp"
+                android:text="PROFİL"
+                android:visibility="gone"
+                android:id="@+id/edit_profile_img"
+                android:textColor="#FFFFFF"
+                android:background="#80FFFFFF"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="125dp"
+                android:layout_height="125dp"
+                android:src="@mipmap/ic_none_profile"
+                android:id="@+id/user_profile_pic"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true" />
+
+        </RelativeLayout>
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/info_rl"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/user_profile">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:textColor="@color/colorAccent"
+            android:text="EDIP ERTURK"
+            android:id="@+id/user_pro_name"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ediperturk@outlook.com"
+            android:textColor="@color/colorAccent"
+            android:textSize="20dp"
+            android:id="@+id/user_pro_email"
+            android:layout_below="@+id/user_pro_name"
+            android:layout_centerHorizontal="true" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/edit_information"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:visibility="gone"
+            android:layout_marginRight="10dp"
+            android:src="@mipmap/ic_edit_profile"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+    </RelativeLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:id="@+id/linearLayout2"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/info_rl">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/allOrderCountText"
+                    android:layout_gravity="center_horizontal"
+                    android:text="SİPARİŞ"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorAccent"/>
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/allOrderCount"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:background="@drawable/textview_style"
+                    android:text="25"
+                    android:textSize="45dp"
+                    android:textColor="#FFFFFF"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/linearLayout">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="LİSTE"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorAccent"
+                    android:id="@+id/allListCountText"
+                    android:layout_gravity="center_horizontal" />
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:background="@drawable/textview_style"
+                    android:text="150"
+                    android:textSize="45dp"
+                    android:textColor="#FFFFFF"
+                    android:layout_centerHorizontal="true"
+                    android:id="@+id/allListCount" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_centerVertical="true">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="KATEGORİ"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:textColor="@color/colorAccent"
+                    android:id="@+id/allCategoryCountText" />
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:background="@drawable/textview_style"
+                    android:text="15"
+                    android:textSize="45dp"
+                    android:textColor="#FFFFFF"
+                    android:id="@+id/allCategoryCount"
+                    android:layout_centerVertical="true"/>
+
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

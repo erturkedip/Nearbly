@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:screenOrientation="portrait">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:orientation="horizontal"
+            android:id="@+id/ll_order"
+            android:background="#4DFFFFFF"
+            android:weightSum="10">
+
+
+            <CheckBox
+                android:id="@+id/order_check"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginLeft="25dp"
+                android:paddingLeft="15dp"
+                android:text="deneme"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp"
+                android:layout_weight="1"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingRight="15dp"
+                android:layout_weight="9">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/delete_order"
+                    android:layout_weight="1"
+                    android:src="@mipmap/ic_delete_order"
+                    android:layout_gravity="center_vertical|center_horizontal"/>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+
+</LinearLayout>

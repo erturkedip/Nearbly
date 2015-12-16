@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_categories"
+            android:icon="@mipmap/ic_home"
+            android:title="Liste Oluştur" />
+        <item
+            android:id="@+id/nav_lists"
+            android:icon="@mipmap/ic_saved_list"
+            android:title="Kaydedilen Listeler" />
+        <item
+            android:id="@+id/nav_new_category"
+            android:icon="@mipmap/nav_new_category"
+            android:title="Yeni Kategori Ekle" />
+
+    </group>
+
+   <!-- <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>-->
+
+
+
+</menu>

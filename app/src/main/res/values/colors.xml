@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#21ae84</color>
+    <color name="colorPrimaryDark">#2aa480</color>
+    <color name="colorAccent">#21ae84</color>
+    <color name="translucent">#4DFFFFFF</color>
+    <color name="text_selected">#888</color>
+    <color name="transparent_bg">#fff</color>
+    <color name="login_text_color">#FFFFFF</color>
+</resources>
