@@ -20,6 +20,8 @@ import java.util.ArrayList;
 
 public class CategoryAdapter extends ArrayAdapter<Category>{
 
+    //vdfvdvd
+
     private final Context context;
     private final ArrayList<Category> values;
     Typeface typeface;
