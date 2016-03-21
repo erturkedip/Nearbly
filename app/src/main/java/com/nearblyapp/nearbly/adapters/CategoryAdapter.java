@@ -20,7 +20,7 @@ import java.util.ArrayList;
 
 public class CategoryAdapter extends ArrayAdapter<Category>{
 
-    //vdfvdvd
+    //vdfvdvdasdgfghkkl
 
     private final Context context;
     private final ArrayList<Category> values;
